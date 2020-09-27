@@ -300,6 +300,10 @@ textarea {
   color: #ffffff;
 }
 
+.address__item-mail {
+  margin-bottom: 9px;
+}
+
 .address__mail, .address__tel {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -309,6 +313,7 @@ textarea {
   font-size: 14px;
   line-height: 1.7em;
   letter-spacing: 0.03em;
+  margin-bottom: 9px;
 }
 
 .form-footer {
@@ -605,5 +610,9 @@ textarea {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.footer__adress {
+  flex-shrink: 0;
 }
 /*# sourceMappingURL=portfolio.css.map */
