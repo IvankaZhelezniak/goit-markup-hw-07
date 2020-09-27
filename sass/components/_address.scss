@@ -9,6 +9,10 @@
     color: $primary-white-color;
   }
 
+  &__item-mail {
+    margin-bottom: 9px;
+  }
+
   &__mail,
   &__tel {
     color: rgba(255, 255, 255, 0.6);
@@ -21,5 +25,6 @@
     font-size: 14px;
     line-height: 1.7em;
     letter-spacing: 0.03em;
+    margin-bottom: 9px;
   }
 }
