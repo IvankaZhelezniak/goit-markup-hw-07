@@ -1,0 +1,52 @@
+.form-footer {
+  width: 570px;
+  margin-left: 93px;
+  margin-right: 0;
+  padding: 0;
+
+  &__title {
+    text-transform: uppercase;
+    color: $primary-white-color;
+  }
+
+  &__input {
+    padding: 15px 16px;
+    margin-right: 12px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: $bg-color;
+    color: $secondary-bg-color;
+    width: 358px;
+  }
+
+  &__subscription {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+  }
+
+  &__input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.btn--footer {
+  position: relative;
+
+  padding-right: 62px;
+  padding-left: 29px;
+}
+
+.btn--footer::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/icons-svg/icon-send.svg);
+
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  transform: translateY(-50%);
+}
